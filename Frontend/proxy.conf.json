@@ -1,0 +1,11 @@
+{
+  "/rest": {
+    "target": "http://localhost:9090",
+    "secure": false,
+    "logLevel": "debug",
+    "pathRewrite": {
+      "^/rest/": "http://localhost:9090/rest/"
+    },
+    "changeOrigin": true
+  }
+}
